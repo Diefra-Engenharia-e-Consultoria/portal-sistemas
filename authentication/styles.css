@@ -1,0 +1,174 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+::-ms-reveal {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: radial-gradient(circle at -20.44% 43.84%, #bc7d2d 0, #b38128 5.56%, #aa8525 11.11%, #9f8923 16.67%, #958d24 22.22%, #8a9028 27.78%, #7e932d 33.33%, #719634 38.89%, #64983c 44.44%, #559a45 50%, #449c4f 55.56%, #2d9d59 61.11%, #009e64 66.67%, #009f70 72.22%, #00a07c 77.78%, #00a187 83.33%, #00a193 88.89%, #00a19f 94.44%, #00a1aa 100%);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-diefra {
+    width: 12rem;
+}
+
+.container {
+    min-width: 400px;
+    max-width: 100%;
+    border: 1.2px solid rgba(0, 0, 0, 0.333);
+    padding: 3rem;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    padding: 0 0 1.5rem;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container label {
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    border: 1.2px solid rgba(0, 0, 0, 0.333);
+    border-radius: 5px;
+    padding: 1rem;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border: 1.2px solid #000;
+}
+
+.required {
+    color: red;
+    margin-left: 5px;
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;
+    background-color: #008c10;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Mantenha bordas arredondadas */
+    padding: 10px 20px; /* Ajuste de padding */
+    cursor: pointer;
+    transition: background-color .3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #008c10a3;
+    transform: scale(1.02);
+}
+
+.checkbox-container {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+    transition: color 0.3s;
+}
+
+.checkbox-container:hover {
+    color: #000000aa;
+}
+
+.checkbox-container label {
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: .8rem;
+    text-align: right;
+}
+
+.forgot-password:hover {
+    color: #000000aa;
+}
+
+.password-container {
+    position: relative;
+}
+
+.input-password {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.input-password input {
+    width: 100%;
+    padding-right: 40px; /* Padding apenas do lado direito */
+}
+
+.input-password .eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+}
+
+.password {
+    width: 100%;
+    position: static;
+}
