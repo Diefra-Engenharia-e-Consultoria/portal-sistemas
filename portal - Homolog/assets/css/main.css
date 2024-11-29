@@ -1212,7 +1212,13 @@ ul.icons li .icon:before {
 
 /* Footer */
 #footer {
-  background-color: #00916d;
+  background-color: #007f48;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 3rem 0 1.5rem 0;
+}
+
+.footer-homolog {
+  background-color: #9c0000 !important;
   color: rgba(255, 255, 255, 0.5);
   padding: 3rem 0 1.5rem 0;
 }
@@ -1405,12 +1411,22 @@ ul.icons li .icon:before {
 }
 
 #footer .highlights .content {
-  background: #00916d;
+  background: #007f48;
   box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
 }
 
 #footer .testimonials .content {
-  background: #00916d;
+  background: #007f48;
+  box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
+}
+
+.footer-homolog .highlights .content {
+  background: #9c0000 !important;
+  box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
+}
+
+.footer-homolog .testimonials .content {
+  background: #9c0000 !important;
   box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 0.025);
 }
 
@@ -1538,7 +1554,7 @@ body:before {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #00916d;
+  background: #007f48;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;
@@ -1548,6 +1564,11 @@ body:before {
   top: 0;
   width: 100%;
   z-index: 10001;
+}
+
+.header-homolog {
+  background: #9c0000 !important;
+
 }
 
 #header>.logo {
@@ -1634,7 +1655,7 @@ body:before {
 
 /* Heading */
 #heading {
-  background: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), #00916d;
+  background: linear-gradient(rgba(17, 17, 17, 0.25), rgba(17, 17, 17, 0.25)), #007f48;
   color: rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
@@ -1726,7 +1747,7 @@ body:before {
 
 #heading select option {
   color: rgba(255, 255, 255, 0.5);
-  background: #00916d;
+  background: #007f48;
 }
 
 #heading input[type="checkbox"]+label,
@@ -1766,7 +1787,7 @@ body:before {
 #heading .highlights .content,
 #heading .testimonials .content {
   color: #fff;
-  background: #00916d;
+  background: #007f48;
   box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.025);
 }
 
